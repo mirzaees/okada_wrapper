@@ -98,6 +98,10 @@ The outputs are identical to DC3D0wrapper
 NEW: You can install `okada_wrapper` directly from the PyPI by running::
 
 ```
+conda install -c conda-forge stdlib-list
+
+export LIBRARY_PATH="$LIBRARY_PATH:/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib"
+
 pip install okada_wrapper
 ```
 
